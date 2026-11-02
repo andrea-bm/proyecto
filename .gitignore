@@ -1,0 +1,25 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+#Estas dos carpetas están excluidas, porque se crean automáticamente, entonces es innecesario subirlas a Git, ya que en cualquier momento puedes obtenerlas ,y además pesan  mucho y dan fallos cuando varias personas del equipo trabajan en ellas. 
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
